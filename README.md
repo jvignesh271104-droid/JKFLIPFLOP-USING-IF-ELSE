@@ -38,11 +38,13 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 3. JK Flip-Flop Logic: On posedge c1k, compute q
 4. Complementary Output: Update qbar = ~q to maintain complementarity.
 5. Testbench: Simulate with combinations of J, K, and c1k to verify JK Flip-Flop functionality.
+
 **PROGRAM**
+```
 Program for flipflops and verify its truth table in quartus using Verilog programming.
 Developed by: Jaiakash J
 RegisterNumber: 212225240055
-```
+
 module exp7(J,K,c1k,q,qbar);
 input J,K,c1k;
 output reg q;
@@ -63,4 +65,5 @@ endmodule
 <img width="1921" height="1201" alt="image" src="https://github.com/user-attachments/assets/34a4e216-31bb-43d5-9afc-28df795d484b" />
 
 **RESULTS**
+
 Thus, the JK flipflop is implemented and verified.
